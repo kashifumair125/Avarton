@@ -1,0 +1,156 @@
+*{
+    box-sizing:border-box;
+}
+
+body {
+    min-width: fit-content;
+}
+
+.navbar-brand mb-0 h5{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.storecard{
+    margin: 50px 10px;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.top-center{
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
+
+.storecard img{
+    border-radius: 10%;
+}
+
+.storecard:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 1s ease;
+}
+
+.container{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+}
+
+.card{
+    width: 280px;
+    height: 400px;
+    margin: 20px;
+}
+
+.card a{
+    background-color: black;
+    color: white;
+    display: block;
+    text-decoration: none;
+    padding: 10px 10px;
+    text-align: center;
+    margin: 10px 50px;
+    border-radius: 50px;
+}
+
+.card:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 1s ease;
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    } 
+
+.storecardone{
+    height: 400px;
+    width: 350px;
+    margin: 20px;
+}
+        
+.bottom{
+    margin: 10px;
+    text-align: center;
+}
+
+.sample-div
+{
+    height: 350px;
+    position: relative;
+
+}
+
+.sample-div img
+{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.storecardone:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 1s ease;
+}
+
+/* style for airpod-category page */
+
+.items{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 70px;
+    margin-top: 70px;
+}
+
+.items a{
+    text-decoration: none;
+    color: black;
+    margin-left: 50px;
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+ul li:hover{
+    text-decoration: underline;
+    transform: scale(1.05);
+}
+
+.iphone{
+    width: 280px;
+    height: 400px;
+    margin: 20px;
+    margin-top: 100px;
+}
+
+.iphone-image{
+    margin-bottom: 50px;
+}
+
+.iphone a{
+    margin-left: 100px;
+    text-decoration: none;
+    background-color: lightblue;
+    border-radius: 20%;
+    color: black;
+    padding: 10px 10px;
+}
+
+.iphone:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 1s ease;
+}
